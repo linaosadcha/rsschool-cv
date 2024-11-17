@@ -102,24 +102,28 @@
                 <div class="examples-container">
                     <h3 class="examples-title">Code Examples</h3>
                     <p class="examples-text">
-                        <pre><code>
-                            function findHex(){
-                            let r = rgb(first.value*1) ;
-                            let g = rgb(sec.value*1);
-                            let b = rgb(third.value*1);
-                            console.log("#"+r+g+b);
-                            let convert = "#" + r + g + b;
-                            let upper = convert.toUpperCase();
-                            document.getElementById("output").value=upper;
-                            document.body.style.backgroundColor=upper
-                            console.log(upper);
-                            function rgb(rgb){
-                                console.log(rgb);
-                                let get = Number(rgb).toString(16);
-                                return get;
+                        <pre>
+                            <code>
+                                function findHex()
+                                {
+                                    let r = rgb(first.value*1) ;
+                                    let g = rgb(sec.value*1);
+                                    let b = rgb(third.value*1);
+                                    console.log("#"+r+g+b);
+                                    let convert = "#" + r + g + b;
+                                    let upper = convert.toUpperCase();
+                                    document.getElementById("output").value=upper;
+                                    document.body.style.backgroundColor=upper
+                                    console.log(upper);
+                                    function rgb(rgb)
+                                    {
+                                        console.log(rgb);
+                                        let get = Number(rgb).toString(16);
+                                        return get;
+                                    }
                                 }
-                            }
-                        </code></pre>
+                            </code>
+                        </pre>
                     </p>
                 </div>
                 <div>
@@ -179,7 +183,7 @@
     <footer>
         <div class="footer-links">
             <div class="first">
-                <a href="https://rs.school/" alt=""><img src="img/images.png"></a>
+                <a href="https://rs.school/"><img src="img/images.png" alt=""></a>
                 <a href="https://github.com/linaosadcha">GitHub</a>
                 <a href="#">Country</a>
                 <a href="#">For business</a>
