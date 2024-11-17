@@ -4,6 +4,49 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+nav a{
+    font-size: 18px;
+    display: inline-block;
+    line-height: 20px;
+    font-weight: 400;
+    color:  #595959;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.data{
+    right: 350px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav button{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgba(78, 78, 255, 0.973);
+    color: aliceblue;
+    border-radius: 4px;
+    border: none;
+    line-height: 40px;
+    width: 100px;
+    margin-right: 30px;
+    text-align: center;
+
+}
+
+
+
+
 ul,
 ol{
     margin-top: 0;
@@ -264,6 +307,25 @@ ol{
     color: #000;
 }
 
+.examples-title{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.examples-container{
+    margin-top: 40px;
+}
+
+.examples-text{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
 .language-title{
     color: #000;
     font-size: 22px;
@@ -285,4 +347,30 @@ ol{
 }
 .language-container{
     margin-top: 8px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: #F6F6FA;
+}
+
+.first,
+.second{
+    padding: 15px 30px;
+    display: flex;
+    gap: 40px;
+    color:rgb(129, 127, 127);
+}
+
+a{
+    color:rgb(129, 127, 127);
+}
+a :visited{
+    color:rgb(129, 127, 127);
+}
+a:hover{
+    text-decoration: underline;
 }
