@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#"> Gmail </a>
+            <a href="#"> School</a>
+            <a href="https://app.rs.school/course/score?course=js-fe-en-2024q4"> RSSchool </a>
+            <button>Log In</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Wrapper -->
+        <div class="wrapper">
+
+            <!-- main content -->
+            <div class="main-content">
+
+                <!-- my info -->
+                <div class="my-info">
+                <h2 class="my-profession">Front-End Developer</h2>
+
+                <h1 class="my-name">Osadcha Lina</h1>
+
+                <p class="my-descr">I'm student of Interregional Academy of Personnel Managment (IAPM) that studying 3rd course of Software Engineering (SE),
+                    and Junior FrontEnd Developer working with stack of modern technologies. I like to achive new goals, learn upcoming technologies and work with team.
+                    I wish my skills will help your company to improve existing web-interfaces and build new ones according to the modern requirements and fast-moving progress.</p>
+                </div>
+
+                <!-- my projects -->
+                <div class="my-projects-container">
+                    <h3 class="my-projects-title">Projects</h3>
+
+                    <ol class="my-projects-list">
+
+                        <li class="my-projects-item">
+                            <a class="my-projects-item-link" href="https://github.com/linaosadcha/test-task" target="_blank">https://github.com/linaosadcha/test-task</a>
+                        </li>
+
+                        <li class="my-projects-item">
+                            <a class="my-projects-item-link" href="https://linaosadcha.github.io/calculator" target="_blank">https://linaosadcha.github.io/calculator</a>
+                        </li>
+
+                        <li class="my-projects-item">
+                            <a class="my-projects-item-link" href="https://linaosadcha.github.io/sto/" target="_blank">https://linaosadcha.github.io/sto/</a>
+                        </li>
+                    </ol>
+                </div>
+
+                <!-- work experience -->
+                <div>
+                    <h3 class="work-experience-title">Work Experience</h3>
+
+                    <div class="work-experience-container">
+                        <h4 class="work-experience-company">Front-End Developer
+                            <span class="company-name">IAPM: Schedule Project</span>
+                        </h4>
+                        <p class="work-experience-period">07.2024 - up to now
+                            <span class="work-experience-period-separator">|</span> Ukraine
+                        </p>
+
+                        <ul class="work-experience-duties-list">
+                            <li class="work-experience-duties-item">Building FrontEnd pages using HTML, CSS, pure JavaScript
+                            </li>
+                            <li class="work-experience-duties-item">Building application design
+                            </li>
+                            <li class="work-experience-duties-item">Reviewing pull-requests
+                            </li>
+                            <li class="work-experience-duties-item">JIRA Issue Tracker progress checking
+                            </li>
+                            <li class="work-experience-duties-item">Merging Backend with existing FrontEnd
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="education-container">
+                    <h3 class="education-title">Education</h3>
+                    <h4 class="education-study">Interregional Academy of Personnel Management (MAUP)</h4>
+                    <p class="education-faculty">Software engineering</p>
+                    <p class="education-period">September 2023 - 2026   <span class="education-period-separator">|</span>   Ukraine</p>
+                    <h4 class="education-study">KUC</h4>
+                    <p class="education-faculty">Managment</p>
+                    <p class="education-period">2021 - 2023  <span class="education-period-separator">|</span>   Ukraine</p>
+                </div>
+
+                <div class="examples-container">
+                    <h3 class="examples-title">Code Examples</h3>
+                        <pre class="examples-text">
+                            <code>
+                                function findHex()
+                                {
+                                    let r = rgb(first.value*1) ;
+                                    let g = rgb(sec.value*1);
+                                    let b = rgb(third.value*1);
+                                    console.log("#"+r+g+b);
+                                    let convert = "#" + r + g + b;
+                                    let upper = convert.toUpperCase();
+                                    document.getElementById("output").value=upper;
+                                    document.body.style.backgroundColor=upper
+                                    console.log(upper);
+                                    function rgb(rgb)
+                                    {
+                                        console.log(rgb);
+                                        let get = Number(rgb).toString(16);
+                                        return get;
+                                    }
+                                }
+                            </code>
+                        </pre>
+                </div>
+                <div>
+                    <!-- Language -->
+                    <h3 class="language-title">Language</h3>
+                    <div class="language-container">
+                        <ul class="language-list">
+                            <li class="language-item">English: B2</li>
+                            <li class="language-item">Ukrainian: Fluent</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- sidebar -->
+            <aside class="sidebar">
+                <img src="img/photo_2024-10-12_15-27-54.jpg" alt="My photo" width="370">
+
+                <div class="sidebar-content">
+
+                    <!-- contacts -->
+                    <div class="contacts-containet">
+                        <h3 class="contacts-title">Contacts</h3>
+                        <p class="contacts-item">
+                            <span class="contacts-type">C:</span>
+                            <a class="contacts-link"  href="tel:+380987957140">+38 098 795 71 40</a>
+                        </p>
+                        <p class="contacts-item">
+                            <span class="contacts-type">E:</span>
+                            <a  class="contacts-link" href="mailto:lina.osadchayaa@gmail.com">lina.osadchayaa@gmail.com</a>
+                        </p>
+                        <p class="contacts-item">
+                            <span class="contacts-type">L-In:</span>
+                            <a  class="contacts-link" href="www.linkedin.com/in/lina-osadcha">www.linkedin.com/in/lina-osadcha</a>
+                        </p>
+                    </div>
+
+                    <!-- tech skills -->
+                    <div class="skills-container">
+                        <h3 class="skills-title">Skills</h3>
+                        <ul class="skills-list">
+                            <li class="skills-list-item">HTML5</li>
+                            <li class="skills-list-item">CSS3</li>
+                            <li class="skills-list-item">GIT</li>
+                            <li class="skills-list-item">JavaScript(Vue.js)</li>
+                            <li class="skills-list-item">PHP</li>
+                            <li class="skills-list-item">PowerShell/Bash</li>
+                            <li class="skills-list-item">C++</li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <div class="first">
+                <a href="https://rs.school/"><img src="img/images.png" alt="" width="40"></a>
+                <a href="https://github.com/linaosadcha">GitHub</a>
+                <a href="#">Country</a>
+                <a href="#">For business</a>
+                <a href="#">Search</a>
+            </div>
+            <div class="second">
+                <a href="https://rs.school/courses/javascript">RSSchool</a>
+            </div>
+            <div class="data"><h2>2024</h2></div>
+
+
+        </div>
+    </footer>
+</body>
+</html>

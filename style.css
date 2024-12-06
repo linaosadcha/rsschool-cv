@@ -1,0 +1,376 @@
+body{
+    background: #F6F6FA;
+    padding: 40px 40px 40px 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+nav a{
+    font-size: 18px;
+    display: inline-block;
+    line-height: 20px;
+    font-weight: 400;
+    color:  #595959;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.data{
+    right: 350px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav button{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgba(78, 78, 255, 0.973);
+    color: aliceblue;
+    border-radius: 4px;
+    border: none;
+    line-height: 40px;
+    width: 100px;
+    margin-right: 30px;
+    text-align: center;
+
+}
+
+
+
+
+ul,
+ol{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wrapper{
+    background: #ffffff;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* main content */
+.main-content{
+    padding-left: 88px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+
+/* sidebar */
+.sidebar{
+    background: #E0EBFE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.sidebar-content{
+    padding-left: 40px;
+    padding-top: 40px;       /*внутрішні відступи*/
+    padding-right: 40px;
+}
+
+/* Contacts */
+.contacts-title{
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px ;
+    margin-bottom: 8px;         /*зовнішні відступи між елементами*/
+}
+
+.contacts-type{
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 8px;
+}
+
+.contacts-link{
+    color: #0046c9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.contacts-item{
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.contacts-containet{
+    margin-bottom: 40px;
+}
+/* skills container */
+
+.skills-container{
+    margin-bottom: 40px;
+}
+
+.skills-title{
+   color: #161D2A;
+   font-size: 22px;
+   font-weight: 700;
+   line-height: normal;
+   margin-top: 0;
+   margin-bottom: 8px;
+}
+
+.skills-list{
+    padding-left: 20px;
+}
+
+.skills-list-item{
+   color: #161D2A;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 24px;
+}
+
+/* main content */
+.my-profession{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-name{
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.my-descr{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.my-info{
+    margin-bottom: 40px;
+}
+
+/* my projects */
+.my-projects-title{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-projects-item{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-projects-list{
+    padding-left: 16px;
+}
+
+.my-projects-item-link{
+    color: #0046c9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.my-projects-item-tech{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.my-projects-container{
+    margin-bottom: 40px;
+}
+
+/* work experience */
+.work-experience-title{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.work-experience-company{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.company-name{
+    color: #6d9bf5;
+}
+
+.work-experience-period{
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+
+.work-experience-period-separator{
+    color: #000;
+}
+
+.work-experience-duties-list{
+    padding-left: 16px;
+}
+
+.work-experience-duties-item{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.work-experience-container{
+    margin-bottom: 12px;
+}
+
+/* education */
+.education-title{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.education-container{
+    margin-top: 40px;
+}
+
+.education-study{
+    color: #6d9bf5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.education-faculty{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.education-period{
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+
+.education-period-separator{
+    color: #000;
+}
+
+.examples-title{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.examples-container{
+    margin-top: 40px;
+}
+
+.examples-text{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.language-title{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.language-list{
+    padding-left: 16px;
+}
+.language-item{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.language-container{
+    margin-top: 8px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: #F6F6FA;
+}
+
+.first,
+.second{
+    padding: 15px 30px;
+    display: flex;
+    gap: 40px;
+    color:rgb(129, 127, 127);
+}
+
+a{
+    color:rgb(129, 127, 127);
+}
+a :visited{
+    color:rgb(129, 127, 127);
+}
+a:hover{
+    text-decoration: underline;
+}
